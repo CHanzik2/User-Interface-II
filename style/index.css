@@ -92,7 +92,7 @@ h2{
     font-size: 2.5rem;
 }
 
-img {
+#hero-image img {
     width: 85%;
     height: 30vh;
     display: flex;
@@ -137,6 +137,23 @@ nav button:hover{
     justify-content: space-between;
     align-items: left;
     color: darkred;
+}
+#projects2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+#projects2 div{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    padding: 1% 0;
+    /* font-size: 2rem; */
 }
 #footer-container {
     border: 1px solid black;
