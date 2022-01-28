@@ -53,14 +53,16 @@ table {
 *{
     box-sizing: border-box;
     max-width: 100%;
-    border: 1px solid red;
 }
 
 html {
     font-size: 62.5%;
     background-color: aqua;
 }
-
+#top {
+    border: 1px solid black;
+    font-family: 'Source Serif 4', sans-serif;
+}
 body {
     line-height: 1.5;
     font-size: 1.8rem;
@@ -74,9 +76,21 @@ h1 {
     letter-spacing: 3px;
     text-align: center;
     font-size: 4rem;
-    font-family: 'Source Serif 4', sans-serif;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 2.5rem;
 }
 
+#hero-image {
+    background-color: white;
+    height: 50%;
+    width:auto;
+}
 a {
     text-decoration: none;
     color: black;
@@ -111,14 +125,10 @@ nav button:hover{
     align-items: left;
     color: darkred;
 }
-/* #footer-container {
+#footer-container {
     border: 1px solid black;
-    justify-content: center;
-    display: flex;
-    font-size: 2rem;
-    height: 10vh;
-} */
-h2{
+}
+#footer-container h2{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,15 +138,10 @@ h2{
 }
 
 #footer-container nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     width: 10%;
-
+    display: flex;
+    justify-content: center;
     align-items: center;
-    text-align: center;
-}
+    margin:auto;    
+} 
 
-#footer-container button:hover {
-    background-color: white;
-}
